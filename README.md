@@ -17,3 +17,8 @@ Here is my motor model, using 100uH coils.
 
 
 <img src="https://github.com/constlo/ESC/blob/master/motor_model.png"></img>
+
+
+Finally, this is the output my circuit generates:
+
+<img src="https://github.com/constlo/ESC/blob/master/motor_phases.png"></img>
