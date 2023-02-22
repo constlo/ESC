@@ -11,3 +11,6 @@ I was inspired to make this circuit from this tutorial: https://howtomechatronic
 So far, I have managed to create a functional 3-phase voltage generator using basic logic gates and a synchronous clock to trigger the 6 states needed for the driver. However, there are some factors that still need to be implemented:
 - No back EMF detection: Back EMF is used in commercial ESCs to detect the motor's position. This is a very hard task to implement in LTSpice, as my motor model is just 3 coils winded up together.
 - Inductive kickback reduction: A must before this circuit is implemented in real life. At this time, triggering the motors create very high impedance spikes of up to 30 Amperes, which is way too much.
+
+Here is my motor model, using 100uH coils.
+[This is an image](https://github.com/constlo/ESC/blob/master/motor_model.png)
