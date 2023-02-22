@@ -13,4 +13,7 @@ So far, I have managed to create a functional 3-phase voltage generator using ba
 - Inductive kickback reduction: A must before this circuit is implemented in real life. At this time, triggering the motors create very high impedance spikes of up to 30 Amperes, which is way too much.
 
 Here is my motor model, using 100uH coils.
+
+
+
 <img src="https://github.com/constlo/ESC/blob/master/motor_model.png"></img>
