@@ -1,5 +1,5 @@
 # ESC Simulation
-## An LTSpice of an Electric Speed Controller.
+## An LTSpice simulation of an Electric Speed Controller.
 
 This repository contains a simulation of a basic electronic speed controller
 for a brushless DC motor. 
